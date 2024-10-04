@@ -13,7 +13,7 @@ dbConnection();
 //middleware
 app.use(express.json());
 
-//routes
+//autentication routes
 app.use("/api/auth", authRoutes);
 
 //routes based on role
